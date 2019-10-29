@@ -1,0 +1,19 @@
+{
+  "name": "facebook-login-react",
+  "version": "0.1.0",
+  "main": "index.html",
+  "repository": "git@github.com:ricardotulio/facebook-login-react",
+  "author": "Ricardo Tulio <ledo.tulio@gmail.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.9.0",
+    "webpack-merge": "^4.2.2"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --open --config config/webpack.config.dev.js",
+    "build": "webpack --config config/webpack.config.prod.js"
+  }
+}
