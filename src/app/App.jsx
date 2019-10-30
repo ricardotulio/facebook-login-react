@@ -1,7 +1,9 @@
 import React from 'react'
 
+import Input from './common/Input'
+
 const App = () => (
-  <h1>Hello world!</h1>
+  <Input id="teste" />
 )
 
 export default App

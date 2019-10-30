@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Properties are passed to input element 1`] = `
+<input
+  id="input-id"
+  name="input-name"
+/>
+`;
