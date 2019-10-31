@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Properties are passed to element 1`] = `
+<button
+  onclick="() => {}"
+  type="button"
+>
+  Click here
+</button>
+`;
