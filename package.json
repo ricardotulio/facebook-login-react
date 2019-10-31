@@ -29,6 +29,6 @@
   "scripts": {
     "test": "jest",
     "start": "webpack-dev-server --open --config config/webpack.config.dev.js",
-    "build": "webpack --config config/webpack.config.prod.js"
+    "build": "rm -rf ./dist/* && webpack --config config/webpack.config.prod.js"
   }
 }
