@@ -2,6 +2,7 @@ const webpack = require('webpack')
 const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
+const devMode = process.env.NODE_ENV !== 'production';
 
 module.exports = {
   entry: './src/index.jsx',
@@ -9,7 +10,7 @@ module.exports = {
     extensions: ['.js', '.jsx']
   },
   output: {
-    filename: 'bundle.js',
+    filename: devMode ? '[name].js' : '[name].[hash].js',
     path: path.resolve(__dirname, '../dist/'),
   },
   module: {
@@ -43,7 +44,7 @@ module.exports = {
       template: './src/index.html',
     }),
     new MiniCssExtractPlugin({
-      filename: '[name].css',
+      filename: devMode ? '[name].css' : '[name].[hash].css',
       ignoreOrder: false,
     }),
   ],
