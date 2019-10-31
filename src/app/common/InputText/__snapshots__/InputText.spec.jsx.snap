@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Properties are passed element 1`] = `
+<input
+  id="inputText-id"
+  name="inputText-name"
+  type="text"
+/>
+`;
+
+exports[`Type property cannot be overwritten 1`] = `
+<input
+  id="inputText-id"
+  name="inputText-name"
+  type="text"
+/>
+`;
