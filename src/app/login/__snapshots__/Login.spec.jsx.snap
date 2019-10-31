@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`login form must be built correctly 1`] = `
+<form>
+  <input
+    id="login"
+    name="login"
+    type="text"
+  />
+  <input
+    id="password"
+    name="password"
+    type="password"
+  />
+  <button
+    type="button"
+  >
+    SIGN IN
+  </button>
+</form>
+`;

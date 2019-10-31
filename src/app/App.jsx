@@ -1,9 +1,9 @@
 import React from 'react'
 
-import Input from './common/Input'
+import Login from './login'
 
 const App = () => (
-  <Input id="teste" />
+  <Login />
 )
 
 export default App
